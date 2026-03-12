@@ -1,42 +1,197 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mijn Eerste Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jouw Naam - Cybersecurity Governance</title>
+    <style>
+        /* Basis Instellingen */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        h1, h2, h3 {
+            color: #1a252f; /* Donkerblauw / Zakelijk */
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        
+        /* Navigatie */
+        nav {
+            background: #1a252f;
+            color: #fff;
+            padding-top: 15px;
+            min-height: 50px;
+            border-bottom: #2980b9 3px solid;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 0 15px;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+        }
+
+        /* Hero Sectie */
+        #hero {
+            background: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        #hero h1 {
+            color: #ffffff;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        #hero p {
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        /* Secties Algemeen */
+        section {
+            padding: 40px 20px;
+            background: #ffffff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .section-title {
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Grid voor Expertise */
+        .skills-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .skill-box {
+            flex-basis: 48%;
+            background: #ecf0f1;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a252f;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #2980b9;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welkom op mijn website</h1>
-    <p>Dit is mijn eerste site die ik host via Netlify 🚀</p>
-  </header>
 
-  <nav>
-    <a href="#over">Over mij</a>
-    <a href="#diensten">Diensten</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#over-mij">Over Mij</a></li>
+                <li><a href="#opleiding">Opleiding</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#ervaring">Ervaring</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <main>
-    <section id="over">
-      <h2>Over mij</h2>
-      <p>Hier kun je iets vertellen over jezelf of je project. Je kunt later meer pagina's en secties toevoegen.</p>
-    </section>
+    <header id="hero">
+        <div class="container">
+            <h1>[Jouw Voornaam + Achternaam]</h1>
+            <p>Cybersecurity Governance Professional | Risk management, compliance, mensenwerk</p>
+        </div>
+    </header>
 
-    <section id="diensten">
-      <h2>Diensten</h2>
-      <p>Beschrijf hier welke diensten of producten je aanbiedt. Dit kan ook een portfolio zijn.</p>
-    </section>
+    <div class="container">
+        <section id="over-mij">
+            <h2 class="section-title">Over Mij</h2>
+            <p>Al op jonge leeftijd ontstond mijn passie voor de digitale wereld. Toen mijn vader me als vierjarige introduceerde aan de magie van het internet was ik verkocht: dit is de toekomst.</p>
+            <p>Meer dan twintig jaar later, met een achtergrond in de Bestuurskunde, besloot ik die passie om te zetten in een professionele achtergrond via de Master Crisis and Security Management aan de Universiteit Leiden. Met een specialisatie in Cybersecurity Governance combineer ik de magie van vroeger met mijn kennis van beleid en governance van nu.</p>
+            <p>De eindstand: een profiel met een brede kennis van het Nederlandse bestuurssysteem én diepgaande kennis over cybersecurity-beleid op meerdere vlakken van de samenleving.</p>
+        </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Wil je in contact komen? Voeg hier je e-mail of een formulier toe.</p>
-    </section>
-  </main>
+        <section id="opleiding">
+            <h2 class="section-title">Opleiding & Onderzoek</h2>
+            <h3>Universiteit Leiden (2025 - Heden)</h3>
+            <p><strong>Master (MSc):</strong> Crisis and Security Management (CSM) | Specialisatie: Cybersecurity Governance</p>
+            <ul>
+                <li><strong>Afstudeeronderzoek (WIP):</strong> [Vul hier later de titel of het onderwerp van je scriptie in]</li>
+            </ul>
 
-  <footer>
-    <p>&copy; 2025 Mijn Website. Alle rechten voorbehouden.</p>
-  </footer>
+            <h3>Radboud Universiteit Nijmegen (2020 - 2024)</h3>
+            <p><strong>Bachelor (BSc):</strong> Bestuurskunde</p>
+        </section>
+
+        <section id="expertise">
+            <h2 class="section-title">Expertise & Vaardigheden</h2>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <h3>Harde Skills</h3>
+                    <p>Risk Management, Security Awareness trainingen, Data analyse, Evenementenorganisatie, Hospitality coördinatie.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Zachte Skills</h3>
+                    <p>Crisismanagement, Stakeholdermanagement, Duidelijke communicatie, Werken onder druk, Communicatieve flexibiliteit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ervaring">
+            <h2 class="section-title">Werkervaring (Transferable Skills)</h2>
+            
+            <h3>Local Assistant & Hospitality Coordinator - UEFA (2024 - 2026)</h3>
+            <p>Tijdens Europese wedstrijden van AZ Alkmaar was ik medeverantwoordelijk voor vlotte operaties en strikte naleving van UEFA-protocollen in een dynamische, high-profile omgeving.</p>
+            <ul>
+                <li>Verantwoordelijk voor complex stakeholdermanagement tussen club en sponsoren.</li>
+                <li>Bewaakte fysieke toegang en naleving van strenge accreditatie-protocollen (fysieke security en compliance).</li>
+                <li>Uitstekende training genoten in het bewaren van overzicht en kalmte onder hoge druk.</li>
+            </ul>
+
+            <h3>Stagemanager - Vierdaagseplein Van Ouds (2024)</h3>
+            <p>Leiding over complexe logistiek tijdens grootschalige evenementen. Dit vereiste acute probleemoplossing en incident management; direct handelen wanneer situaties afweken van de planning.</p>
+
+            <h3>Gastheer - Café Van Ouds Nijmegen (2022 - 2024)</h3>
+            <p>Scherp getraind in communicatieve flexibiliteit en de-escalatie. Geleerd om de behoeften en gedragingen van een diverse groep mensen te lezen en hier effectief op in te spelen—een vaardigheid die essentieel is voor het creëren van security awareness binnen organisaties.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Neem contact op via <a href="[Jouw LinkedIn URL]">LinkedIn</a> of stuur een e-mail naar <a href="mailto:[Jouw Emailadres]">[Jouw Emailadres]</a>.</p>
+        <p>&copy; 2026 [Jouw Naam]. Alle rechten voorbehouden.</p>
+    </footer>
+
 </body>
 </html>
