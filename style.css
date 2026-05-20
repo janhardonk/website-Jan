@@ -16,3 +16,22 @@ nav a {
 .btn {
   display: inline-block; background: #2980b9; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; 
 }
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px; 
+    border-top: 1px solid #ddd; 
+    background-color: #ffffff;
+    color: #1a252f;
+}
+
+footer a {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
